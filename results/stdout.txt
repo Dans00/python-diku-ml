@@ -1,0 +1,59 @@
+[W 10:53:44.883 LabApp] Config option `base_kernel_url` not recognized by `LabApp`.  Did you mean one of: `base_project_url, base_url`?
+[W 10:53:44.883 LabApp] base_project_url is deprecated, use base_url
+[I 10:53:44.905 LabApp] Writing notebook server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 10:53:45.311 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 10:53:45.327 LabApp] JupyterLab beta preview extension loaded from /usr/local/lib/python3.6/site-packages/jupyterlab
+[I 10:53:45.327 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[W 10:53:45.455 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 10:53:45.455 LabApp] JupyterLab beta preview extension loaded from /usr/local/lib/python3.6/site-packages/jupyterlab
+[I 10:53:45.456 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 10:53:45.735 LabApp] Serving notebooks from local directory: /mnt
+[I 10:53:45.735 LabApp] 0 active kernels
+[I 10:53:45.735 LabApp] The Jupyter Notebook is running at:
+[I 10:53:45.735 LabApp] http://domino-run-5b83d7e0e4b0b0931800a547:8888/diku-ml/python-diku-ml/notebookSession/5b83d7e0e4b0b0931800a547/
+[I 10:53:45.735 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 10:53:47.253 LabApp] 302 GET /diku-ml/python-diku-ml/notebookSession/5b83d7e0e4b0b0931800a547 (10.249.32.50) 0.67ms
+[I 10:53:50.485 LabApp] 302 GET /diku-ml/python-diku-ml/notebookSession/5b83d7e0e4b0b0931800a547 (10.249.32.38) 0.47ms
+[I 10:53:50.494 LabApp] 302 GET /diku-ml/python-diku-ml/notebookSession/5b83d7e0e4b0b0931800a547 (10.249.32.38) 0.38ms
+[I 10:53:50.581 LabApp] 302 GET /diku-ml/python-diku-ml/notebookSession/5b83d7e0e4b0b0931800a547 (10.249.32.38) 0.74ms
+[I 10:53:55.364 LabApp] > /usr/local/bin/npm pack /home/ubuntu/jupyterlab-monaco
+jupyterlab-monaco-0.1.0.tgz
+
+┌──────────────────────────────────────────────────────────┐
+│                 npm update check failed                  │
+│           Try running with sudo or get access            │
+│           to the local update config store via           │
+│ sudo chown -R $USER:$(id -gn $USER) /home/ubuntu/.config │
+└──────────────────────────────────────────────────────────┘
+[I 10:53:57.702 LabApp] Build is up to date
+[I 10:55:51.094 LabApp] Creating new notebook in /
+[I 10:55:51.115 LabApp] Writing notebook-signing key to /home/ubuntu/.local/share/jupyter/notebook_secret
+[I 10:55:51.431 LabApp] Kernel started: abbbeb5e-075d-4c6d-94a6-a0251d9ebbe1
+[I 10:55:52.152 LabApp] Adapting to protocol v5.1 for kernel abbbeb5e-075d-4c6d-94a6-a0251d9ebbe1
+[I 10:55:52.274 LabApp] Adapting to protocol v5.1 for kernel abbbeb5e-075d-4c6d-94a6-a0251d9ebbe1
+[I 10:56:33.304 LabApp] Creating new notebook in /
+[I 10:56:34.167 LabApp] Kernel started: 483c2c54-aa78-45a5-9c61-bc8cb7897d96
+[I 10:56:34.744 LabApp] Adapting to protocol v5.1 for kernel 483c2c54-aa78-45a5-9c61-bc8cb7897d96
+[I 10:57:42.724 LabApp] Creating new directory in /
+[I 10:57:49.877 LabApp] Creating new directory in /src
+[I 10:57:51.345 LabApp] Saving file at /my_first_notebook.ipynb
+[I 10:57:56.286 LabApp] Creating new directory in /src/main
+[I 10:58:04.956 LabApp] Creating new directory in /src/main
+[I 10:58:16.517 LabApp] Creating new directory in /src/main/python
+[I 10:58:29.651 LabApp] Creating new file in /src/main/python/my
+[I 10:58:34.151 LabApp] Saving file at /import_local_py_modules.ipynb
+[I 10:58:41.784 LabApp] Creating new directory in /src/main/python/my
+[I 10:58:54.911 LabApp] Creating new file in /src/main/python/my/module
+[I 11:00:40.011 LabApp] Saving file at /src/main/python/my/module/local_module.py
+[I 11:00:47.121 LabApp] Saving file at /src/main/python/my/module/local_module.py
+[I 11:01:14.416 LabApp] Kernel started: 9ebf0cf8-abc6-4a84-a30a-39f0a88928ba
+[I 11:01:15.087 LabApp] Adapting to protocol v5.1 for kernel 9ebf0cf8-abc6-4a84-a30a-39f0a88928ba
+[I 11:02:31.050 LabApp] Starting buffering for 9ebf0cf8-abc6-4a84-a30a-39f0a88928ba:899b24f4ac0a58e5fbfc1e97218915d2
+[I 11:02:31.258 LabApp] Kernel restarted: 9ebf0cf8-abc6-4a84-a30a-39f0a88928ba
+[I 11:02:33.557 LabApp] Adapting to protocol v5.1 for kernel 9ebf0cf8-abc6-4a84-a30a-39f0a88928ba
+[I 11:02:33.558 LabApp] Restoring connection for 9ebf0cf8-abc6-4a84-a30a-39f0a88928ba:899b24f4ac0a58e5fbfc1e97218915d2
+[I 11:02:33.558 LabApp] Replaying 6 buffered messages
+[I 11:02:41.161 LabApp] Saving file at /src/main/notebooks/import_local_py_modules.ipynb
+[I 11:02:53.452 LabApp] Kernel started: 0be7e182-6b20-4d6b-a1e5-06c524ee1515
+[I 11:02:54.010 LabApp] Adapting to protocol v5.1 for kernel 0be7e182-6b20-4d6b-a1e5-06c524ee1515
+[I 11:02:58.825 LabApp] Saving file at /src/main/notebooks/my_first_notebook.ipynb

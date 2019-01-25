@@ -1,0 +1,251 @@
+
+              RabbitMQ 3.6.16. Copyright (C) 2007-2018 Pivotal Software, Inc.
+  ##  ##      Licensed under the MPL.  See http://www.rabbitmq.com/
+  ##  ##
+  ##########  Logs: tty
+  ######  ##        tty
+  ##########
+              Starting broker...
+
+=INFO REPORT==== 14-Nov-2018::12:56:37 ===
+Starting RabbitMQ 3.6.16 on Erlang 19.2.1
+Copyright (C) 2007-2018 Pivotal Software, Inc.
+Licensed under the MPL.  See http://www.rabbitmq.com/
+
+=INFO REPORT==== 14-Nov-2018::12:56:37 ===
+node           : rabbit@rabbitmq-cluster-58db9b6978-xpndp
+home dir       : /var/lib/rabbitmq
+config file(s) : /etc/rabbitmq/rabbitmq.config
+cookie hash    : Lc1gJDiV+YvooSCEqsKDfg==
+log            : tty
+sasl log       : tty
+database dir   : /var/lib/rabbitmq/mnesia/rabbit@rabbitmq-cluster-58db9b6978-xpndp
+
+=INFO REPORT==== 14-Nov-2018::12:56:54 ===
+Memory high watermark set to 762 MiB (800001228 bytes) of 1907 MiB (2000003072 bytes) total
+
+=INFO REPORT==== 14-Nov-2018::12:56:54 ===
+Enabling free disk space monitoring
+
+=INFO REPORT==== 14-Nov-2018::12:56:54 ===
+Disk free limit set to 50MB
+
+=INFO REPORT==== 14-Nov-2018::12:56:54 ===
+Limiting to approx 65436 file handles (58890 sockets)
+
+=INFO REPORT==== 14-Nov-2018::12:56:54 ===
+FHC read buffering:  OFF
+FHC write buffering: ON
+
+=INFO REPORT==== 14-Nov-2018::12:56:54 ===
+Database directory at /var/lib/rabbitmq/mnesia/rabbit@rabbitmq-cluster-58db9b6978-xpndp is empty. Initialising from scratch...
+
+=INFO REPORT==== 14-Nov-2018::12:56:54 ===
+    application: mnesia
+    exited: stopped
+    type: temporary
+
+=INFO REPORT==== 14-Nov-2018::12:56:54 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 14-Nov-2018::12:56:54 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 14-Nov-2018::12:56:55 ===
+Waiting for Mnesia tables for 30000 ms, 9 retries left
+
+=INFO REPORT==== 14-Nov-2018::12:56:55 ===
+Priority queues enabled, real BQ is rabbit_variable_queue
+
+=INFO REPORT==== 14-Nov-2018::12:56:55 ===
+Starting rabbit_node_monitor
+
+=INFO REPORT==== 14-Nov-2018::12:56:55 ===
+Management plugin: using rates mode 'basic'
+
+=INFO REPORT==== 14-Nov-2018::12:56:55 ===
+msg_store_transient: using rabbit_msg_store_ets_index to provide index
+
+=INFO REPORT==== 14-Nov-2018::12:56:55 ===
+msg_store_persistent: using rabbit_msg_store_ets_index to provide index
+
+=WARNING REPORT==== 14-Nov-2018::12:56:55 ===
+msg_store_persistent: rebuilding indices from scratch
+
+=INFO REPORT==== 14-Nov-2018::12:56:55 ===
+Adding vhost '/'
+
+=INFO REPORT==== 14-Nov-2018::12:56:55 ===
+Creating user 'guest'
+
+=INFO REPORT==== 14-Nov-2018::12:56:55 ===
+Setting user tags for user 'guest' to [administrator]
+
+=INFO REPORT==== 14-Nov-2018::12:56:55 ===
+Setting permissions for 'guest' in '/' to '.*', '.*', '.*'
+
+=INFO REPORT==== 14-Nov-2018::12:56:55 ===
+started TCP Listener on [::]:5672
+
+=INFO REPORT==== 14-Nov-2018::12:56:56 ===
+Management plugin started. Port: 15672
+
+=INFO REPORT==== 14-Nov-2018::12:56:56 ===
+Statistics database started.
+ completed with 6 plugins.
+
+=INFO REPORT==== 14-Nov-2018::12:56:57 ===
+Server startup complete; 6 plugins started.
+ * rabbitmq_management
+ * rabbitmq_management_agent
+ * rabbitmq_web_dispatch
+ * amqp_client
+ * cowboy
+ * cowlib
+
+=INFO REPORT==== 14-Nov-2018::12:57:27 ===
+accepting AMQP connection <0.621.0> (100.96.50.166:38882 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 14-Nov-2018::12:57:28 ===
+connection <0.621.0> (100.96.50.166:38882 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 14-Nov-2018::12:58:57 ===
+accepting AMQP connection <0.649.0> (100.96.58.0:35164 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 14-Nov-2018::12:58:57 ===
+accepting AMQP connection <0.652.0> (100.96.58.0:39882 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 14-Nov-2018::12:58:57 ===
+accepting AMQP connection <0.655.0> (100.96.58.0:40790 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 14-Nov-2018::12:58:57 ===
+connection <0.652.0> (100.96.58.0:39882 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 14-Nov-2018::12:58:57 ===
+connection <0.655.0> (100.96.58.0:40790 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 14-Nov-2018::12:58:57 ===
+connection <0.649.0> (100.96.58.0:35164 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 27-Nov-2018::13:23:40 ===
+closing AMQP connection <0.621.0> (100.96.50.166:38882 -> 100.96.50.163:5672, vhost: '/', user: 'guest')
+
+=WARNING REPORT==== 29-Nov-2018::08:49:23 ===
+closing AMQP connection <0.649.0> (100.96.58.0:35164 -> 100.96.50.163:5672, vhost: '/', user: 'guest'):
+client unexpectedly closed TCP connection
+
+=INFO REPORT==== 29-Nov-2018::08:49:49 ===
+accepting AMQP connection <0.28012.1> (100.96.58.0:38270 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 29-Nov-2018::08:49:50 ===
+connection <0.28012.1> (100.96.58.0:38270 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 30-Nov-2018::10:02:18 ===
+accepting AMQP connection <0.104.2> (100.96.74.176:34976 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 30-Nov-2018::10:02:19 ===
+connection <0.104.2> (100.96.74.176:34976 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 14-Dec-2018::09:42:32 ===
+closing AMQP connection <0.28012.1> (100.96.58.0:38270 -> 100.96.50.163:5672, vhost: '/', user: 'guest')
+
+=INFO REPORT==== 14-Dec-2018::09:42:56 ===
+accepting AMQP connection <0.25771.3> (100.96.58.0:37650 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 14-Dec-2018::09:42:56 ===
+connection <0.25771.3> (100.96.58.0:37650 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 14-Dec-2018::09:48:21 ===
+closing AMQP connection <0.25771.3> (100.96.58.0:37650 -> 100.96.50.163:5672, vhost: '/', user: 'guest')
+
+=INFO REPORT==== 14-Dec-2018::09:48:32 ===
+accepting AMQP connection <0.25808.3> (100.96.58.0:46884 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 14-Dec-2018::09:48:32 ===
+connection <0.25808.3> (100.96.58.0:46884 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 17-Dec-2018::08:20:10 ===
+closing AMQP connection <0.25808.3> (100.96.58.0:46884 -> 100.96.50.163:5672, vhost: '/', user: 'guest')
+
+=INFO REPORT==== 17-Dec-2018::08:20:22 ===
+accepting AMQP connection <0.5635.4> (100.96.58.0:42168 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 17-Dec-2018::08:20:22 ===
+connection <0.5635.4> (100.96.58.0:42168 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 17-Dec-2018::08:20:29 ===
+closing AMQP connection <0.652.0> (100.96.58.0:39882 -> 100.96.50.163:5672, vhost: '/', user: 'guest')
+
+=INFO REPORT==== 17-Dec-2018::08:20:54 ===
+accepting AMQP connection <0.5889.4> (100.96.58.0:44538 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 17-Dec-2018::08:20:54 ===
+connection <0.5889.4> (100.96.58.0:44538 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=ERROR REPORT==== 28-Dec-2018::10:06:00 ===
+closing AMQP connection <0.5889.4> (100.96.58.0:44538 -> 100.96.50.163:5672):
+missed heartbeats from client, timeout: 60s
+
+=ERROR REPORT==== 28-Dec-2018::10:06:28 ===
+closing AMQP connection <0.5635.4> (100.96.58.0:42168 -> 100.96.50.163:5672):
+missed heartbeats from client, timeout: 60s
+
+=ERROR REPORT==== 28-Dec-2018::10:06:39 ===
+closing AMQP connection <0.655.0> (100.96.58.0:40790 -> 100.96.50.163:5672):
+missed heartbeats from client, timeout: 60s
+
+=INFO REPORT==== 31-Dec-2018::09:59:27 ===
+accepting AMQP connection <0.32637.5> (100.96.58.0:46948 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 31-Dec-2018::09:59:27 ===
+connection <0.32637.5> (100.96.58.0:46948 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 31-Dec-2018::09:59:27 ===
+accepting AMQP connection <0.32678.5> (100.96.58.0:57864 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 31-Dec-2018::09:59:27 ===
+connection <0.32678.5> (100.96.58.0:57864 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=INFO REPORT==== 31-Dec-2018::09:59:28 ===
+accepting AMQP connection <0.32694.5> (100.96.58.0:43736 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 31-Dec-2018::09:59:28 ===
+connection <0.32694.5> (100.96.58.0:43736 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=ERROR REPORT==== 2-Jan-2019::18:03:19 ===
+closing AMQP connection <0.32678.5> (100.96.58.0:57864 -> 100.96.50.163:5672):
+{writer,send_failed,{error,timeout}}
+
+=INFO REPORT==== 2-Jan-2019::18:03:24 ===
+accepting AMQP connection <0.10786.6> (100.96.58.0:50020 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 2-Jan-2019::18:03:24 ===
+connection <0.10786.6> (100.96.58.0:50020 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=ERROR REPORT==== 2-Jan-2019::18:03:24 ===
+closing AMQP connection <0.32694.5> (100.96.58.0:43736 -> 100.96.50.163:5672):
+{writer,send_failed,{error,timeout}}
+
+=INFO REPORT==== 2-Jan-2019::18:03:30 ===
+accepting AMQP connection <0.10815.6> (100.96.58.0:36250 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 2-Jan-2019::18:03:30 ===
+connection <0.10815.6> (100.96.58.0:36250 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=ERROR REPORT==== 2-Jan-2019::18:03:54 ===
+closing AMQP connection <0.10786.6> (100.96.58.0:50020 -> 100.96.50.163:5672):
+{writer,send_failed,{error,timeout}}
+
+=INFO REPORT==== 2-Jan-2019::18:03:59 ===
+accepting AMQP connection <0.10836.6> (100.96.58.0:51836 -> 100.96.50.163:5672)
+
+=INFO REPORT==== 2-Jan-2019::18:03:59 ===
+connection <0.10836.6> (100.96.58.0:51836 -> 100.96.50.163:5672): user 'guest' authenticated and granted access to vhost '/'
+
+=ERROR REPORT==== 2-Jan-2019::18:04:00 ===
+closing AMQP connection <0.10815.6> (100.96.58.0:36250 -> 100.96.50.163:5672):
+{writer,send_failed,{error,timeout}}
+
+=ERROR REPORT==== 2-Jan-2019::18:04:30 ===
+closing AMQP connection <0.10836.6> (100.96.58.0:51836 -> 100.96.50.163:5672):
+{writer,send_failed,{error,timeout}}
